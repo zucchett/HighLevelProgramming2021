@@ -6,9 +6,10 @@ The notebooks will be added few hours before each lecture / exercise.
 This repo should be forked by each individual student. Exercises should be committed to the student's repo. Before each deadline, a pull request (PR) should be prepared to integrate the changes into this (*upstream*) repository. Those pull requests should point to the appropriate student branch. PRs pointing to the *main* branch will be closed.
 
 ## IPython notebooks instructions and tips
+
 Notebooks are extremely powerful tools, you may find useful to discover some of their functionalities on this tutorial [page](https://nbviewer.jupyter.org/github/ipython/ipython/blob/3.x/examples/Notebook/Index.ipynb) or by checking these tips [list](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 
-## Git Instructions
+## Git instructions
 
 To begin with, you need to have a GitHub account. If you don't already have one, go to [github](github.com) and sign up. Follow instructions on the screen. Tip: use a reasonable username that resembles your actual name.  
 
