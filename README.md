@@ -49,7 +49,7 @@ The following instructions need to be followed any time a new local repository i
 
    `git fetch upstream`
 
-  * The default branch is `main`. You should now create your development branch where you can edit and run the code. Note that you have a branch corresponding to your name in the upstream repository (`upstream/<NameSurname>`): that is the branch you should point the pull request to. In order to set up a proper development cycle, you must create a branch (in the example below called <BranchName>) that *tracks* `upstream/<NameSurname>`:
+  * The default branch is `main`. You should now create your development branch where you can edit and run the code. Note that you have a branch corresponding to your name in the upstream repository (`upstream/<NameSurname>`): that is the branch you should point the pull request to. In order to set up a proper development cycle, you must create a branch (in the example below called `<BranchName>`) that *tracks* `upstream/<NameSurname>`:
 
    `git branch -vv`
 
@@ -62,7 +62,7 @@ The following instructions need to be followed any time a new local repository i
 ### Standard development cycle
 
 
-   * Before starting with the development you could check whether the upstream repository has been updated with respect to your forked version (that's likely to be the case prior to every lab class). If it had, then merge the chances into your main:
+   * Before starting with the development you could check whether the upstream repository has been updated with respect to your forked version (that's likely to be the case prior to every lab class). If it had, then merge the changes into your main:
 
    `git checkout main`
    
@@ -76,7 +76,7 @@ The following instructions need to be followed any time a new local repository i
 	   
    `git fetch upstream/<NameSurname>`
 
-   `git merge upstream/main`
+   `git merge upstream/<NameSurname>`
 
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
@@ -84,7 +84,7 @@ The following instructions need to be followed any time a new local repository i
   
    `git pull`
    
-   * In the case your pull request has been recently approved, you also need to synch your development branch:
+   * In the case your pull request has been recently approved, make sure to synch your development branch:
 
    `git checkout <BranchName>`
 
