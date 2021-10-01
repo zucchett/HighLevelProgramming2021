@@ -61,21 +61,29 @@ The following instructions need to be followed any time a new local repository i
 
 ### Standard development cycle
 
-   * Before starting to edit on the machine that you are using, type the follow command in order to update the directory with the last changes:
-  
-   `git pull`
 
-   * Before starting with the development you could check whether the upstream repository has been updated with respect to your forked version (that's likely to be the case prior to every lab class). If it had, then merge the chances into your master.
-
-   `git fetch upstream`
+   * Before starting with the development you could check whether the upstream repository has been updated with respect to your forked version (that's likely to be the case prior to every lab class). If it had, then merge the chances into your main:
 
    `git checkout main`
+   
+   `git fetch upstream`
+
+   `git merge upstream/main`
+   
+   * And then in your development branch, if any:
+   
+   `git checkout <BranchName>`
+	   
+   `git fetch upstream/<NameSurname>`
 
    `git merge upstream/main`
 
-   The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems).
-  Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
+   * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
+   * Before starting to edit on the machine that you are using, type the follow command in order to update the directory with the last changes:
+  
+   `git pull`
+   
    * In the case your pull request has been recently approved, you also need to synch your development branch:
 
    `git checkout <BranchName>`
