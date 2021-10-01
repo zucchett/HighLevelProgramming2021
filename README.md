@@ -21,11 +21,11 @@ The following instructions need to be followed any time a new local repository i
 
    * Clone your (forked) repository (i.e. create a local repository cloned from your remote repository)
 
-   `git clone https://github.com/<YourUsername>/HighLevelProgramming_Y1.git`
+   `git clone https://github.com/<YourUsername>/HighLevelProgramming2021.git`
 
    where <YourUsername> it your GitHub username. A new directory will appear in your current directory. Get into it:
 
-   `cd HighLevelProgramming_Y1/`
+   `cd HighLevelProgramming2021/`
 
    * Configure your username and email:
 
@@ -37,9 +37,9 @@ The following instructions need to be followed any time a new local repository i
 
    * Define the central HighLevelProgramming repo as the upstream repository (you may need to set the url too):
 
-   `git remote add upstream https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics_Y3.git`
+   `git remote add upstream https://github.com/zucchett/HighLevelProgramming2021.git`
 
-   `git remote set-url origin https://YOUR_GIT_ACCOUNT@github.com/YOUR_GIT_ACCOUNT/LaboratoryOfComputationalPhysics_Y3.git`
+   `git remote set-url origin https://<YourUsername>@github.com/<YourUsername>/HighLevelProgramming2021.git`
 
    * Check that the previous commands succeeded:
 
