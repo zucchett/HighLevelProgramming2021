@@ -15,15 +15,17 @@ To begin with, you need to have a GitHub account. If you don't already have one,
 
 Once you have your github account, fork this repository clicking on the top-right button *Fork*.
 
+Generate your Token on GitHub following this [guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). Copy the token to a safe place. Remember you can see it only the first time, otherwise if you lose it you have to create another one.
+
 ### Setting up a local repository
 
 The following instructions need to be followed any time a new local repository is created. If you are working in a location where such repo already exists, what follows doesn't need to be repeated every time.
 
    * Clone your (forked) repository (i.e. create a local repository cloned from your remote repository)
 
-   `git clone https://github.com/<YourUsername>/HighLevelProgramming2021.git`
+   `git clone https://<YourToken>@github.com/<YourUsername>/HighLevelProgramming2021.git`
 
-   where <YourUsername> it your GitHub username. A new directory will appear in your current directory. Get into it:
+   where <YourUsername> it your GitHub username and <YourToken> is the token as copied from the GitHub webpage. A new directory will appear in your current directory. Get into it:
 
    `cd HighLevelProgramming2021/`
 
@@ -33,13 +35,11 @@ The following instructions need to be followed any time a new local repository i
 
    `git config --global user.email "<YourEmail>"`
 
-   Your git configuration is stored in `.gitconfig`, a file that you can alwasy edit by hand or via the `git config ..` commands.
+   Your git configuration is stored in `~/.gitconfig`, a file that you can always edit by hand.
 
-   * Define the central HighLevelProgramming repo as the upstream repository (you may need to set the url too):
+   * Define the central HighLevelProgramming repo as the upstream repository:
 
    `git remote add upstream https://github.com/zucchett/HighLevelProgramming2021.git`
-
-   `git remote set-url origin https://<YourUsername>@github.com/<YourUsername>/HighLevelProgramming2021.git`
 
    * Check that the previous commands succeeded:
 
@@ -86,7 +86,7 @@ The following instructions need to be followed any time a new local repository i
 
    `git merge main`
 
-   * Now develop some code. Image you create a <NewFile>. Add the file to your local repository and stage it for commit (to unstage a file, use `git reset HEAD <NewFile>`)
+   * Now develop some code. Image you create a `<NewFile>`. Add the file to your local repository and stage it for commit (to unstage a file, use `git reset HEAD <NewFile>`)
 
    `git add <NewFile>`
 
