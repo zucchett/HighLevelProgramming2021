@@ -57,8 +57,6 @@ The following instructions need to be followed any time a new local repository i
 
    Note: in case you decide to develop your code in a branch that does **not** track `upstream/<NameSurname>`, you'll eventually need to merge your changes into the branch tracking `upstream/<NameSurname>` which is the one to which your pull request will point to.
 
-
-
 ### Standard development cycle
 
 
