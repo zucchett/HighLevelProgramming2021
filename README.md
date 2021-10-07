@@ -78,7 +78,7 @@ The following instructions need to be followed any time a new local repository i
 
    `git merge upstream/<NameSurname>`
 
-       * Be careful that the git syntax is inconsistent between fetch and merge. In the former you should use the whitespace to separate the repository and the branch name, in the latter you should use the slash character.
+   Be careful that the git syntax is inconsistent between fetch and merge. In the former you should use the whitespace to separate the repository and the branch name, in the latter you should use the slash character.
 
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
