@@ -7,7 +7,7 @@ This repo should be forked by each individual student. Exercises should be commi
 
 ## IPython notebooks instructions and tips
 
-Notebooks are extremely powerful tools, you may find useful to discover some of their functionalities on this tutorial [page](https://nbviewer.jupyter.org/github/ipython/ipython/blob/3.x/examples/Notebook/Index.ipynb) or by checking these tips [list](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+Notebooks are extremely powerful tools, you may find useful to discover some of their functionalities on this tutorial [page](https://nbviewer.jupyter.org/github/ipython/ipython/blob/3.x/examples/Notebook/Index.ipynb) or by checking these tips [list](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/).
 
 ## Git instructions
 
@@ -57,10 +57,7 @@ The following instructions need to be followed any time a new local repository i
 
    Note: in case you decide to develop your code in a branch that does **not** track `upstream/<NameSurname>`, you'll eventually need to merge your changes into the branch tracking `upstream/<NameSurname>` which is the one to which your pull request will point to.
 
-
-
 ### Standard development cycle
-
 
    * Before starting with the development you could check whether the upstream repository has been updated with respect to your forked version (that's likely to be the case prior to every lab class). If it had, then merge the changes into your main:
 
@@ -73,10 +70,12 @@ The following instructions need to be followed any time a new local repository i
    * And then in your development branch, if any:
    
    `git checkout <BranchName>`
-	   
-   `git fetch upstream/<NameSurname>`
+
+   `git fetch upstream <NameSurname>`
 
    `git merge upstream/<NameSurname>`
+
+   Be careful that the git syntax is inconsistent between fetch and merge. In the former you should use the whitespace to separate the repository and the branch name, in the latter you should use the slash character.
 
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
@@ -87,6 +86,8 @@ The following instructions need to be followed any time a new local repository i
    * In the case your pull request has been recently approved, make sure to synch your development branch:
 
    `git checkout <BranchName>`
+
+   `git fetch upstream <NameSurname>`
 
    `git merge upstream/<NameSurname>`
 
