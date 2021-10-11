@@ -57,10 +57,7 @@ The following instructions need to be followed any time a new local repository i
 
    Note: in case you decide to develop your code in a branch that does **not** track `upstream/<NameSurname>`, you'll eventually need to merge your changes into the branch tracking `upstream/<NameSurname>` which is the one to which your pull request will point to.
 
-
-
 ### Standard development cycle
-
 
    * Before starting with the development you could check whether the upstream repository has been updated with respect to your forked version (that's likely to be the case prior to every lab class). If it had, then merge the changes into your main:
 
