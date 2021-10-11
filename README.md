@@ -1,7 +1,7 @@
 # High Level Programming
 
 This is the official repository of the course, and contains the Jupyter Notebooks guiding students through the world of data analysis with python.
-The notebooks will be added few hours before each lecture / exercise.
+The notebooks will be added few hours before each lecture or exercise.
 
 This repo should be forked by each individual student. Exercises should be committed to the student's repo. Before each deadline, a pull request (PR) should be prepared to integrate the changes into this (*upstream*) repository. Those pull requests should point to the appropriate student branch. PRs pointing to the *main* branch will be closed.
 
