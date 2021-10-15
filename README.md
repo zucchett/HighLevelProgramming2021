@@ -67,7 +67,7 @@ The following instructions need to be followed any time a new local repository i
 
    `git merge upstream/main`
    
-   * And then in your development branch, if any:
+   * Then synch your development branch (especially in the case your pull request has been recently approved):
    
    `git checkout <BranchName>`
 
@@ -79,21 +79,13 @@ The following instructions need to be followed any time a new local repository i
 
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
-   * Before starting to edit on the machine that you are using, type the follow command in order to update the directory with the last changes:
-  
-   `git pull`
-   
-   * In the case your pull request has been recently approved, make sure to synch your development branch:
-
-   `git checkout <BranchName>`
-
-   `git fetch upstream <NameSurname>`
-
-   `git merge upstream/<NameSurname>`
-
    * You may also need to get the updates from the main, i.e. need to merge the main:
 
    `git merge main`
+
+   * Before starting to edit on the machine that you are using, type the follow command in order to update the directory with the last changes:
+  
+   `git pull`
 
    * Now develop some code. Image you create a `<NewFile>`. Add the file to your local repository and stage it for commit (to unstage a file, use `git reset HEAD <NewFile>`)
 
@@ -110,3 +102,4 @@ The following instructions need to be followed any time a new local repository i
    `git push origin <BranchName>`
 
    * When appropriate, propagate your development also to the repo you originally forked (upstream). For that you need to go for a pull request, which is done from GitHub. Pay attention to set the correct starting and destination branches.
+
