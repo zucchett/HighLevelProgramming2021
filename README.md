@@ -7,7 +7,7 @@ This repo should be forked by each individual student. Exercises should be commi
 
 ## IPython notebooks instructions and tips
 
-Notebooks are extremely powerful tools, you may find useful to discover some of their functionalities on this tutorial [page](https://nbviewer.jupyter.org/github/ipython/ipython/blob/3.x/examples/Notebook/Index.ipynb) or by checking these tips [list](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+Notebooks are extremely powerful tools, you may find useful to discover some of their functionalities on this tutorial [page](https://nbviewer.jupyter.org/github/ipython/ipython/blob/3.x/examples/Notebook/Index.ipynb) or by checking these tips [list](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/).
 
 ## Git instructions
 
