@@ -1,8 +1,0 @@
-def converts(n):
-    nbin = bin(n)
-    nhex = hex(n)
-    print(nbin)
-    print(nhex)
-    
-n = int(input("Insert number: "))
-converts(n)
