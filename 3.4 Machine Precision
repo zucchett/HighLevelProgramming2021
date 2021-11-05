@@ -1,8 +1,0 @@
-i = 1 
-exp = 0
-
-#condition i+something = i is the point in which the addition has no effect on the number
-while(i+(1.0*10**-exp) != i):
-    exp += 1
-
-print("Machine precision is: ", 10**(-(exp-1)))
