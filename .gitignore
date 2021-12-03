@@ -1,0 +1,14 @@
+data/
+*.png
+*.html
+
+01_introduction.ipynb
+02_fundamentals.ipynb
+03_numberRepresentation.ipynb
+04_numpy.ipynb
+05_pandas.ipynb
+06_OSEMN.ipynb
+07_visualization.ipynb
+© 2021 GitHub, Inc.
+Terms
+Privacy
