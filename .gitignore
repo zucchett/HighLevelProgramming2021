@@ -1,0 +1,9 @@
+*.dat
+*.txt
+*.json
+*.pkl
+*.names
+*.root
+*.csv
+*.DS_Store
+data/*
