@@ -1,3 +1,7 @@
 *.bat
+*.txt
+*.csv
+*.png
+data
 Lectures
 .ipynb_checkpoints
