@@ -1,4 +1,5 @@
 *.txt
 *.csv
-Third pack
+/Third pack
 *.json
+./../Lectures
