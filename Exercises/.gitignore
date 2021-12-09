@@ -1,1 +1,5 @@
-04ex_numpy.ipynb
+*.txt
+*.csv
+/Third pack
+*.json
+./../Lectures
