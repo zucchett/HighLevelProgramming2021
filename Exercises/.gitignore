@@ -2,3 +2,4 @@
 *.csv
 Third pack
 *.json
+.ipynb_checkpoints
