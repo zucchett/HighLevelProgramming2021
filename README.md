@@ -1,20 +1,12 @@
-# Final Projects for Laboratory of Computational Physics
+# Final Projects for High Level Programming
 
-In each of the branches of this repo you find all the necessary to complete your final project.
-In particular the file Project.ipynb describes the projects and provides guidance to its development.
-Other files could be present if needed.
+In this branch of the repo, you will find the necessary information to complete your final project.
 
-Each branch is named after the group of students a given project is assigned to.
-The groups compositions are listed [here](https://docs.google.com/spreadsheets/d/1UgRLj6IvLYC-3LQBT1lKkr1SPVbn4hbBdVuWV0Ky6nM/edit#gid=0).
+The project itself is presented and described in the `Project.ipynb` notebook, which also states the objectives and provides guidance to the development.
+Other files, if needed, could be present.
 
-Students are supposed to work together to produce a short report on the assigned task, which will have to be committed to the group branch together with the code developed to achieve the results. The preferred format for the latter is a jupyter notebook, with the proper description, the code implemented for the purpose and the actual results (plots, tables, etc.). The notebook has to be delivered with all the cells executed.
+Students are supposed to work together to produce a short report (15 minutes) on the assigned task, including the code developed to achieve the results, which will have to be committed to the group repository.
 
-### Computing Resources
+The code and the results should be included in a jupyter notebook, properly commented (just like a laboratory report) so it can be understood without a person explaining it, and including the results (plots, tables, etc.).
 
-A Virtual Machine within [CloudVeneto](http://cloudveneto.it/) can be created for each group. Note that, by default, they are not. For some projects though, large datasets are needed, in those cases a VM has been created to store those files. Refer to ClouldInstructions.md for the steps to take in order to use those resources.
-
-Alternatively, students can use [colab](https://colab.research.google.com/) (for which though no instructions are provided here).
-
-### Dates for the exams
-
-Exams will take place on the dates officially scheduled by the university. It is however possible to enable extra dates whenever during the year with the condition that at least 4 groups at the time have to participate to the exam.
+The notebook has to be committed with all the cells executed.
