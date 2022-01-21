@@ -1,6 +1,7 @@
 *.txt
 *.csv
-Third pack
+data
 *.json
-.ipynb_checkpoints
+./.ipynb_checkpoints
 *.pkl
+*.png
