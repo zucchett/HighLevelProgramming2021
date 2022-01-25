@@ -6,3 +6,11 @@ exercises_2/outputData
 exercises_2/outputData/*
 exercises_2/plots
 exercises_2/plots/*
+exercises_3/data
+exercises_3/data/*
+exercises_3/plots
+exercises_3/plots/*
+lectures/*.png
+lectures/*.html
+lectures/*.json
+*.png
