@@ -6,4 +6,8 @@
 *.root
 *.csv
 *.DS_Store
-data/*
+Exercises/.DS_Store
+Lectures/.DS_Store
+Lectures/*.png
+Exercises/*.png
+data/
